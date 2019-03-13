@@ -1,0 +1,23 @@
+{
+  "name": "Flask-Dance with Facebook",
+  "description": "Testing Flask-Dance's OAuth integration with Facebook",
+  "keywords": [
+    "oauth"
+  ],
+  "website": "https://github.com/singingwolfboy/flask-dance-facebook",
+  "repository": "https://github.com/singingwolfboy/flask-dance-facebook",
+  "env": {
+    "FLASK_SECRET_KEY": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    "FACEBOOK_OAUTH_CLIENT_ID": {
+      "description": "The OAuth client ID for your application, assigned by Facebook",
+      "value": "client-id-goes-here"
+    },
+    "FACEBOOK_OAUTH_CLIENT_SECRET": {
+      "description": "The OAuth client secret for your application, assigned by Facebook",
+      "value": "client-secret-goes-here"
+    }
+  }
+}
