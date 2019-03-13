@@ -17,7 +17,7 @@ app.register_blueprint(facebook_bp, url_prefix="/login")
 def index():
     if not facebook.authorized:
         return redirect(url_for("facebook.login"))
-    resp = facebook.get("/user")
+    resp = facebook.get("/me")
     assert resp.ok, resp.text
     return "You are {email} on Facebook".format(email=resp.json()["email"])
 

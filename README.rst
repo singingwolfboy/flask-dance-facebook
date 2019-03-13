@@ -1,5 +1,5 @@
 Flask-Dance Example App: Facebook Edition
-=======================================
+=========================================
 
 This repository provides an example of how to use `Flask-Dance`_ to connect
 to `Facebook`_ as an OAuth client. The example code is in ``facebook.py`` --
