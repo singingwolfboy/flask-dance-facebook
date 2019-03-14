@@ -16,6 +16,3 @@ def index():
     resp = facebook.get("/me")
     assert resp.ok, resp.text
     return "You are {name} on Facebook".format(name=resp.json()["name"])
-
-if __name__ == "__main__":
-    app.run()

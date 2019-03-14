@@ -110,7 +110,7 @@ Step 4: Run your app and login with Facebook!
 ---------------------------------------------
 If you're setting environment variables manually, run your app using Python::
 
-    python facebook.py
+    FLASK_APP=facebook.py flask run
 
 If you're using a ``.env`` file for your environment variables,
 install `foreman`_ and use that to run your app::
